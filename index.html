@@ -3,42 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
     <title>Coffeeld</title>
 </head>
 <body>
     <header>
         <div class="logo">Coffeeld</div>
         <nav>
-            <div class="navigation_menu">
+            <div class="navigation-menu">
                 <a href="#menu" class="menu">Menu</a>
-                <a href="#location" class="location">Location</a>
-                <a href="#about" class="about">About</a>
-                <a href="#job" class="job">Job</a>
-                <a href="#gallery" class="gallery">Gallery</a>
-                <a href="#contacts" class="contacts">Contacts</a>
-            </div> 
+                <a href="#location" class="menu">Location</a>
+                <a href="#about" class="menu">About</a>
+                <a href="#job" class="menu">Job</a>
+                <a href="#gallery" class="menu">Gallery</a>
+                <a href="#contacts" class="menu">Contacts</a>
+            </div>
+            <div class="navigation-page">
+                <h1 class="caffe-name">Coffeeld</h1>
+                <p class="information">Consider yourself at home</p>
+                <p class="badges">✻</p>
+                <button class="moco-button">Book a reservation</button>
+            </div>
         </nav>
     </header>
     <main>
-        <div class="main_page">
+        <!-- <div class="main-page">
             <h1 class="caffe-name">Coffeeld</h1>
             <p class="information">Consider yourself at home</p>
-            <p class="badges">&#10043</p>
+            <p class="badges">✻</p>
             <button class="button">Book a reservation</button>
-        </div>
+        </div> -->
         <div class="menus">
-            <h2 class="text-content">MENUS</h2>
-            <div class="coffe-menu">
+            <h2 class="text-content-black">MENUS</h2>
+            <div class="coffee-menu">
                 <h3 class="text-content-menu">Coffee menu</h3>
                 <p class="menu-text">Our coffee is roasted daily in our Roastery for the richest flavor. Every cup is ground fresh in store.</p>
                 <button class="menu-button">Learn more</button>
             </div>
-            <div class="coffe-menu">
+            <div class="food-menu">
                     <h3 class="text-content-menu">Food menu</h3>
                     <p class="menu-text">We use fresh, authentic ingredients to create good, uncomplicated food. Served all day, every day.</p>
                     <button class="menu-button">Learn more</button>
             </div>
-            <div class="coffe-menu">
+            <div class="drinks-menu">
                     <h3 class="text-content-menu">Drinks menu</h3>
                     <p class="menu-text">Teas, iced drinks, hot chocolate.Everything non-coffee, but still fresh and handcrafted.</p>
                     <button class="menu-button">Learn more</button>
@@ -46,7 +53,7 @@
             <button class="full-menu">Full menu</button>
         </div>
         <div class="cafes">
-            <h2 class="text-content-interior">CAFES</h2>
+            <h2 class="text-content-white">CAFES</h2>
             <div class="cafe-interior">
                 <img class="foto-interior" src="img/caffee1.jpg" alt="cafe interior">
                 <h3 class="text-content-interior">Walnut Creek</h3>
@@ -184,16 +191,16 @@
                         Name: <input type="text" name="Name*" placeholder="Name*">
                     </label>
                     <label>
-                        Phone number: <input type="numeral" name="Phone number" placeholder="Phone number*">
+                        Phone number: <input type="number" name="Phone number" placeholder="Phone number*">
                     </label>
                     <label>
                         Choose a cafe: <input type="text" name="Choose a cafe" placeholder="Choose a cafe*">
                     </label>
                     <label>
-                        Amount of persons: <input type="numeral" name="Amount of personse" placeholder="Amount of persons">
+                        Amount of persons: <input type="number" name="Amount of personse" placeholder="Amount of persons">
                     </label>
                     <label>
-                        Time: <input type="numeral" name="Time" placeholder="Time">
+                        Time: <input type="number" name="Time" placeholder="Time">
                     </label>
                     <label>
                        Your message: <textarea name="message"></textarea>

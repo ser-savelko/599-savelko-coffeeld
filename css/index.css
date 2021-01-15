@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Rokkitt:wght@400;700;900&display=swap');
+
+:root {
+       --main-color: black;
+}
+
+body {
+    min-width: 1162px;
+    margin: auto;
+}
+
+header {
+    background-image: url(../img/background_header.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+    min-width: 1162px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* position: relative; */
+}
+
+.logo {
+    font-family: 'Rokkitt', serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+}   
+
+.navigation-menu {
+    text-align: center;
+}
+
+.menu {
+    text-decoration: none;
+    font-family: 'Rokkitt', serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.caffe-name {
+    font-family: 'Rokkitt', serif;
+    font-weight: 900;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.information {
+    font-family: 'Rokkitt', serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.badges {
+    font-weight: 700;
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+}
+
+.moco-button {
+    display:block;
+    position: relative;
+    left: 200px;
+    font-size: 16px;
+    font-family: 'Librre Baskerville', serif;
+    font-weight: 400;
+    color:#ffffff;
+    width: 212px;
+    height: 60px;
+    border-radius: 0;
+    margin: 0;
+    background-color: #988378;
+    border-color:transparent;
+    border-style: 2px solid #e9c6b3;
+    /* position: center;   */
+}
+
+.menus {
+    justify-content: space-between;
+}
+
+.menus :nth-last-child(4) {
+    justify-content: center;
+}
+
+.text-content-black {
+    font-family: 'Rokkitt', serif;
+    font-weight: 900;
+    font-size: 28px;
+    color: #000000;
+    text-align: center;
+}
+
+.coffee-menu {
+    background-image: url(../img/background_1_menu.jpg);
+    margin: 0;
+    /* padding-right: 0; */
+    display: inline-block;
+    max-width: 387px;
+}
+
+.food-menu {
+    background-image: url(../img/backgroud_2_menu.jpg);
+    margin: 0;
+    display: inline-block;
+    max-width: 387px;
+}
+
+.drinks-menu {
+    background-image: url(../img/background_3_menu.jpg);
+    margin: 0;
+    display: inline-block;
+    max-width: 387px;
+}
+
+.text-content-menu {
+    text-decoration: none;
+    font-family: 'Rokkitt', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.menu-text {
+    text-decoration: none;
+    font-family: 'Rokkitt', serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.menu-button {
+    display:block;
+    position: relative;
+    left: 200px;
+    font-size: 14px;
+    font-family: 'Librre Baskerville', serif;
+    font-weight: 400;
+    color:#E59D75;
+    width: 212px;
+    height: 60px;
+    border-radius: 0;
+    margin: 0;
+    background-color: transparent;
+    border-color: transparent;
+    float: center;
+    /* border-style: 2px solid #e9c6b3; */
+}
+
+.cafes {
+    background-image: url(../img/background_awards.jpg);
+}
+
+.text-content-white {
+    font-family: 'Rokkitt', serif;
+    font-weight: 900;
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+    /* font-family: 'Libre Baskerville', serif;
+    font-family: 'Rokkitt', serif;  */
+
+    /* background-size: cover; */
+    /* background-pozition: cover; */
