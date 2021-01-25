@@ -50,7 +50,9 @@
                     <p class="menu-text">Teas, iced drinks, hot chocolate.Everything non-coffee, but still fresh and handcrafted.</p>
                     <button class="menu-button">Learn more</button>
             </div>
-            <button class="full-menu">Full menu</button>
+            <div>  
+            <button class="moco-button">Full menu</button>
+            </div>
         </div>
         <div class="cafes">
             <h2 class="text-content-white">CAFES</h2>
@@ -183,7 +185,7 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2545.960473342629!2d30.45050546690184!3d50.34864261023791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c83f86256cfb%3A0xe009d696f116a8b7!2z0KHQsNC00L7QstCw0Y8g0YPQuy4sINCd0L7QstC-0YHQtdC70LrQuCwg0JrQuNC10LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sua!4v1610113062272!5m2!1sru!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
             </div>
-            <div class="reservation">
+            <!-- <div class="reservation">
                 <h2 class="text-content">RESERVATION</h2>
                 <p class="reservation-description">Book a table in one of our cafes!</p>
                 <form class="reservation-form">
@@ -207,11 +209,64 @@
                     </label>
                     <buttom class="reservation">Submit</buttom>
                 </form>
+            </div> -->
+
+            <!-- bradtraversy/vanillawebprojects -->
+            <div class = reservation>
+            <div class="container">
+                <form id="form" class="form">
+                  <h2 class=text-content-black>RESERVATION</h2>
+                  <p class = reservation-text>Book a table in one of our cafes!</p>
+                  <div class="form-control">
+                    <!-- <label for="username">Username</label> -->
+                    <input type="text" id="username" placeholder="Name*" />
+                    <small>Error message</small>
+                  </div>
+                  <div class="form-control">
+                    <!-- <label for="email">Email</label> -->
+                    <input type="text" id="email" placeholder="Phone number*" />
+                    <small>Error message</small>
+                  </div>
+                  <div class="form-control">
+                    <!-- <label for="password">Password</label> -->
+                    <input type="password" id="password" placeholder="Choose a cafe" />
+                    <small>Error message</small>
+                  </div>
+                  <div class="form-control">
+                    <!-- <label for="password">Password</label> -->
+                    <input type="password" id="password" placeholder="Amount of persons" />
+                    <small>Error message</small>
+                  </div>
+                  <div class="form-control">
+                    <!-- <label for="password">Password</label> -->
+                    <input type="password" id="password" placeholder="Time" />
+                    <small>Error message</small>
+                  </div>
+                  <div class="form-control-big">
+                    <!-- <label for="password">Password</label> -->
+                    <input type="password" id="password" placeholder="You message" />
+                    <small>Error message</small>
+                  </div>
+                  <!-- <div class="form-control">
+                    <label for="password2">Confirm Password</label>
+                    <input
+                      type="password"
+                      id="password2"
+                      placeholder="Enter password again"
+                    /> -->
+                    <!-- <small>Error message</small> -->
+                  <!-- </div> -->
+                  <div>
+                    <button type="submit">Submit</button>
+                  </div>
+                </form>
+              </div>   
             </div>
-        </div>
     </main>
     <footer>
 
     </footer>
+
+    <script src="js/reservation.js"></script>
 </body>
 </html>
